@@ -26,4 +26,5 @@ total = your number
 
 for i in range(total + 1):
 	ld.bar(i, total, prefix="loading", length=30)
+	time.sleep(0.05)
 '''
